@@ -1462,8 +1462,8 @@ display: block;
   .post:nth-child(7) .post-title {
         font-size: 2.369em;
         max-width: none
-    }*/
-}
+    }
+}*/
 .post:nth-child(8) {
     width: 100%
 }
@@ -1492,33 +1492,34 @@ display: block;
   .post:nth-child(8) .post-image {
         height: 25pc
     }
-  .post:nth-child(8) .post-title {
+  /*.post:nth-child(8) .post-title {
         font-size: 1.777em;
         max-width: none;
         max-width: 70%
-    }
+    }*/
 }
-.post:nth-child(8) .post-title {
+/*.post:nth-child(8) .post-title {
     font-size: 1.777em
-}
+}*/
 @media (min-width: 768px) and (max-width: 991px) {
   .post:nth-child(8) .post-image {
         height: 500px
     }
-  .post:nth-child(8) .post-title {
+  /*.post:nth-child(8) .post-title {
         font-size: 1.777em;
         max-width: none
-    }
+    }*/
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .post:nth-child(8) .post-image {
         height: 500px
     }
-  .post:nth-child(8) .post-title {
+  /*.post:nth-child(8) .post-title {
         font-size: 1.333em;
         max-width: none
-    }
+    }*/
 }
+
 footer{
 background: black;
 text-align: center;
@@ -1535,4 +1536,193 @@ padding: 5em;
 .social-icons a i{
 	font-size: 1.5rem;
 	color: #cccccc;
+}
+
+
+/***** Single post page */
+
+.hony-wrapper {
+    animation: fade-in 300ms ease-out;
+}
+.story-header {
+    text-align: center;
+}
+header nav.dark {
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+header nav {
+    position: relative;
+    border-bottom: 1px solid #fff;
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+    height: 20px;
+    padding-bottom: 30px;
+    padding-top: 46px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 2.5px;
+    -webkit-font-smoothing: none;
+    font-weight: bold;
+}
+header nav .hony {
+    margin-top: -17px;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    border: 2px solid;
+    padding-left: 9px;
+    padding-top: 13px;
+    top: 40px;
+    padding-right: 13px;
+}
+header nav a {
+    transition: color 200ms ease;
+    color: inherit;
+    cursor: pointer;
+}
+header nav .hony span {
+    display: block;
+    font-size: 11px;
+    line-height: 14px;
+}
+header nav .hony .tag {
+    font-family: "MillerDisplay";
+    text-transform: capitalize;
+    color: currentColor;
+    position: relative;
+    display: block;
+    padding-top: 45px;
+    padding-left: 0px;
+    padding-bottom: 7px;
+    padding-right: 8px;
+}
+header.story-header .story-header-container {
+    margin: auto;
+
+}
+header.story-header .story-header-text {
+
+    font-size: 7.5vmin;
+}
+header.story-header .story-header-location {
+
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.story-post-text, .post-page-post .post-text {
+	max-width: 900px;
+    margin: auto;
+    font-size: 22px;
+    font-family: 'Merriweather';
+    line-height: 32px;
+    margin-bottom: 50px;
+    margin-top: 4em;
+}
+.story-post + .share-button {
+    margin-top: 60px;
+}
+.share-button {
+    margin: auto;
+    display: block;
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+
+.read-more-stories {
+    background: #E8E7E7;
+    padding-top: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+.read-more-stories .read-more-stories-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1180px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.read-more-stories .root-post {
+    margin-bottom: 50px;
+}
+.root-post {
+    text-align: center;
+    width: 570px;
+}
+.root-post .root-post-image {
+    height: 380px;
+    border-bottom: 4px solid;
+    cursor: pointer;
+    overflow: hidden;
+}
+.root-post .root-post-location {
+    font-family: "Akzidenz-Grotesk BQ";
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.root-post .root-post-quote {
+    font-family: "MillerDisplay";
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 36px;
+}
+.root-post .root-post-read {
+    cursor: pointer;
+    font-family: "Merriweather";
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: none;
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    margin-top: 25px;
+    outline: 0px;
+}
+.load-more-button, button {
+    background: none;
+    border: 1px solid black;
+    padding: 17px 35px;
+    font-family: Merriweather;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 11px;
+    outline: 0px;
+    position: relative;
+    z-index: 1;
+    color: #000;
+}
+.read-more-stories .read-more-header {
+    font-family: "GT Sectra Display";
+    font-size: 38px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.actual-image{
+	background-repeat: no-repeat !important;
+}
+.single-post #primary{
+	position: relative;
+    margin-top: 8em;
+}
+@media (max-width:599px)
+{
+	.post-title {
+    font-size: 5vmin;
+	}
+}
+.home.background{
+	opacity:1;
+	background: url("http://localhost/wordpress/wp-content/uploads/2016/05/201352311525391706_8.jpg");
 }

@@ -15,12 +15,12 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
+	<main id="main" class="site-main " role="main">
+
+				<div class="home background preload-background-image"></div>
 
 
-				<div class="home background preload-background-image" style="opacity: 1; background-image: url(&quot;http://demo.majesticjungle.com/hit-the-road/content/images/2015/10/15134065586_45ff6f3a1b_k.jpg?rw=1583&amp;rh=745&quot;);"></div>
-
-
-		<main id="main" class="site-main container" role="main">
+	<div class="container">
       <div class="row posts">
         <?php
 
@@ -28,7 +28,7 @@ get_header(); ?>
 
             <div class="post preload-background">
 
-                    <a href="#" class="post-image">
+                    <a href='<?php echo get_permalink($post->ID); ?>' class="post-image">
 
                       <?php
                       $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );
@@ -57,6 +57,7 @@ get_header(); ?>
         ?>
 
       </div>
+		</div>
     		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>

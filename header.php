@@ -24,22 +24,45 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <header>
-        <div class="map-header light header">
-                    <nav class="header-nav ">
-                        <a class="align-left hony" href="/">
-                            <span>Made in</span><span>Equality</span>
-                      </a>
-                        <span class="alignright menu">
-                            <a href="/wordpress/" class="more-stuff">Home</a>
-                            <span class="spacer"></span>
-                            <a href="/wordpress/about" class="more-stuff">About</a>
-                            <span class="spacer"></span>
-                            <a href="/wordpress/contact" class="more-stuff">Contact</a>
-                            <span class="spacer"></span>
-                            <a class="share-with-friends">SHARE</a>
-                        </span>
-                    </nav>
+    <?php  if (is_front_page()){ ?>
+      <header>
+          <div class="map-header light header">
+                      <nav class="header-nav ">
+                          <a class="align-left hony" href="/wordpress">
+                              <span>Made in</span><span>Equality</span>
+                        </a>
+                          <span class="alignright menu">
+                              <a href="/wordpress/" class="more-stuff">Home</a>
+                              <span class="spacer"></span>
+                              <a href="/wordpress/about" class="more-stuff">About</a>
+                              <span class="spacer"></span>
+                              <a href="/wordpress/contact" class="more-stuff">Contact</a>
+                              <span class="spacer"></span>
+                              <a class="share-with-friends">SHARE</a>
+                          </span>
+                      </nav>
 
-</div>
-    </header>
+  </div>
+      </header>
+    <?php } ?>
+    <?php  if (is_single()){ ?>
+      <header>
+          <div class="map-header light header">
+                      <nav class="header-nav dark">
+                          <a class="align-left hony" href="/wordpress/">
+                              <span>Made in</span><span>Equality</span>
+                        </a>
+                          <span class="alignright menu">
+                              <a href="/wordpress/" class="more-stuff">Home</a>
+                              <span class="spacer"></span>
+                              <a href="/wordpress/about" class="more-stuff">About</a>
+                              <span class="spacer"></span>
+                              <a href="/wordpress/contact" class="more-stuff">Contact</a>
+                              <span class="spacer"></span>
+                              <a class="share-with-friends">SHARE</a>
+                          </span>
+                      </nav>
+
+  </div>
+      </header>
+    <?php } ?>
