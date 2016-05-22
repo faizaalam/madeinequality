@@ -91,6 +91,47 @@ function madeinequality_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'madeinequality_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'madeinequality_content_width', 0 );
+function kriesi_pagination($pages = '', $range = 2)
+{
+     $showitems = ($range * 2)+1;
+
+     global $paged;
+     if(empty($paged)) $paged = 1;
+
+     if($pages == '')
+     {
+         global $wp_query;
+         $pages = $wp_query->max_num_pages;
+         if(!$pages)
+         {
+             $pages = 1;
+         }
+     }
+
+     if(1 != $pages)
+     {
+         echo "<div class='pagination-container wow zoomIn mar-b-1x' data-wow-duration='0.5s'>";
+				 echo "<ul class='pagination'>";
+         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<li class='pagination-item--wide first'><a href='".get_pagenum_link(1)."' class='pagination-link--wide first'>Previous</a></li>";
+         if($paged > 1 && $showitems < $pages) echo "<li class='pagination-item--wide first'><a href='".get_pagenum_link($paged - 1)."' class='pagination-link--wide first'>Previous</a></li>";
+
+         for ($i=1; $i <= $pages; $i++)
+         {
+             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
+             {
+                 echo ($paged == $i)? " <li class='pagination-item is_active'><a href='".get_pagenum_link($i)."'>".$i."</a></li>":"<li class='pagination-item'><a class='pagination-link' href='".get_pagenum_link($i)."' >".$i."</a></li>";
+
+
+
+						 }
+         }
+
+         if ($paged < $pages && $showitems < $pages) echo "<li class='pagination-item--wide last'><a href='".get_pagenum_link($paged + 1)."' class='pagination-link--wide last'>Next</a></li>";
+         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<li class='pagination-item--wide last'><a href='".get_pagenum_link($pages)." ' class='pagination-link--wide last'>Next</a></li>";
+				 echo "</ul>";
+         echo "</div>\n";
+     }
+}
 
 /**
  * Register widget area.
@@ -114,11 +155,14 @@ add_action( 'widgets_init', 'madeinequality_widgets_init' );
  * Enqueue scripts and styles.
  */
 function madeinequality_scripts() {
-	wp_enqueue_style( 'madeinequality-style', get_stylesheet_uri() );
+	// wp_enqueue_style( 'madeinequality-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'madeinequality-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'madeinequality-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'wow', get_template_directory_uri() . '/js/wow.js', array(), '20151215', true );
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
+	
+	// wp_enqueue_script( 'madeinequality-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+		
+	// wp_enqueue_script( 'madeinequality-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

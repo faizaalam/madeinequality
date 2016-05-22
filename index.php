@@ -25,38 +25,35 @@ get_header(); ?>
         <?php
 
       	while ( have_posts() ) : the_post(); ?>
-
-            <div class="post preload-background">
+          
+            <div class="post preload-background wow zoomIn" data-wow-delay="0.3s" >
 
                     <a href='<?php echo get_permalink($post->ID); ?>' class="post-image">
-
+                     
                       <?php
                       $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );
                       ?>
-                        <div class="preload-background-image" style="background: url(<?php echo $src[0]; ?> ) ;">
+                        <div class="preload-background-image " style="background:url(<?php echo $src[0]; ?> ) ;">
 
+                   
                                 <header class="post-header">
                                     <h2 class="post-title"><?php echo the_title(); ?></h2>
 
                                 </header>
+                               
                         </div>
 
                     </a>
                 </div>
-        <?php 	endwhile;
-        global $wp_query;
+          
+  <?php 	endwhile; ?>
 
-        $big = 999999999; // need an unlikely integer
 
-        echo paginate_links( array(
-          'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-          'format' => '?paged=%#%',
-          'current' => max( 1, get_query_var('paged') ),
-          'total' => $wp_query->max_num_pages
-        ) );
-        ?>
+
 
       </div>
+		<!-- 	<?php
+			kriesi_pagination(); ?> -->
 		</div>
     		</main><!-- #main -->
 	</div><!-- #primary -->

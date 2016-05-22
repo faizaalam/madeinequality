@@ -36,9 +36,21 @@ get_header(); ?>
     </div>
     <div class="story-post-text">
         <p><?php  the_content(); ?></p>
+         
     </div>
+  <div class="post-full sharing">
+ <a class="follow t" href="javascript:window.open('http://twitter.com/intent/tweet?status=<?php echo urlencode(get_the_title()); ?>+<?php echo wp_get_shortlink(); ?> via @WebAbleDigital','Sharing <?php echo get_the_title() ?> ','width=500,height=800')"><i class="fa fa-twitter"></i>Tweet</a>
+ <a  class="follow i" href="http://www.linkedin.com/" onclick="popUp=window.open(
+         'http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink($ID); ?>&title=<?php echo urlencode(get_the_title()); ?>&source=<?php bloginfo('name'); ?>',
+         'popupwindow',
+         'scrollbars=yes,width=800,height=400');
+     popUp.focus();
+     return false"><i class="fa fa-linkedin"></i>Share</a>
+ <a class="follow g" href="http://www.plus.google.com/" onclick="popUp=window.open('https://plus.google.com/share?url=<?php echo get_permalink($ID); ?>', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false"><i class="fa fa-google-plus"></i>Post</a>
+ <a class="follow f" href="javascript:window.open('http://www.facebook.com/share.php?u=<?php echo get_permalink($ID); ?>&title=<?php echo urlencode(get_the_title()); ?>','Sharing <?php echo get_the_title() ?> ','width=500,height=800')" ><i class="fa fa-facebook"></i> Share</a>
+   </div>
   </div>
-  <button class="share-button">SHARE THIS STORY<span></span></button>
+ 
   <?php
   endwhile; // End of the loop.
   ?>

@@ -1,192 +1,201 @@
 <?php
 /**
- * Template Name: Home
+ * The main template file.
  *
- * @package madeinequality
-
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package Madeinequality
  */
 
-get_header();
- ?>
- <header id="header" class="header header-main" style="height: 745px;">
+get_header(); ?>
 
-         <div class="header-cover preload-background hide-on-menu " data-image="/hit-the-road/content/images/2015/10/8706453607_de2a5d77e3_k.jpg" data-resize="false">
-             <div class="preload-background-image" style="opacity: 1; background-image: url(&quot;http://demo.majesticjungle.com/hit-the-road/content/images/2015/10/8706453607_de2a5d77e3_k.jpg?rw=1583&amp;rh=745&quot;);"></div>
-             <span class="spinner preload-background-spinner" style="display: none;">
-                 <span class="double-bounce1"></span>
-                 <span class="double-bounce2"></span>
-             </span>
-         </div>
+  <div id="primary" class="content-area">
+  <main id="main" class="site-main " role="main">
+
+        <div class="home ">
+            <section class="background-cover" id="cf4a">
+    
+  <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Beyond_the_label_F_3514107k.jpg">
+  <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/3.jpg">
+  <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/1.jpg">
+  <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/ybccxc.jpg">
+</section>
+        </div>
 
 
- </header>
- <div class="container">
+  <div class="container">
+      <div class="row fullWidth posts">
+        
 
-   <div class="row">
-    <div class="large-8 medium-8 small-12 columns stories "><article class="post preload-background" >
+        <div class="large-6 medium-6 small-12 column stories wow fadeInLeft" data-wow-delay="0.3s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
+ <div class="large-6 medium-6 small-12 column  stories wow fadeInRight" data-wow-delay="0.4s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
+     <div class="large-6 medium-6 small-12 column  stories wow fadeInLeft" data-wow-delay="0.3s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
+     <div class="large-6 medium-6 small-12 column stories  wow fadeInRight" data-wow-delay="0.3s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
+     <div class="large-6 medium-6 small-12 column stories wow fadeInLeft" data-wow-delay="0.3s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
+     <div class="large-6 medium-6 small-12 column stories wow fadeInRight" data-wow-delay="0.3s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
 
-            <a href="#" class="post-image">
-                <div class="preload-background-image" style="opacity: 1;">
-                        <header class="post-header">
-                            <h2 class="post-title">“I share my father’s dream; he wants
-me to be a doctor when I grow up.”</h2>
-                            <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                        </header>
-                </div>
+          
 
-            </a>
-        </article>
+     <div class="large-6 medium-6 small-12 column  stories wow fadeInleft" data-wow-delay="0.3s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
+         <div class="large-6 medium-6 small-12 column  stories wow fadeInRight" data-wow-delay="0.3s">  
+     
+      <article>
+        <a href="/the-sound-of-the-heartbeat-street-2/">
+          <div class="two-grid-image" style="background-image:url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/background.jpg)"></div>
+          <div class="two-grid-item-content">
+            <div class="post-list-information">
+                <span class="category">Sport </span>
+              <span>//</span>
+              <span class="date"><time class="post-date" datetime="2015-12-11"> 11.12.15</time></span>
+            </div>
+            <div class="two-grid-title">
+              <h2>THE SOUND OF THE HEARTBEAT STREET</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis enim at quam iaculis ultricies. Integer eget interdum mi, et tincidunt metus. Duis eget urna elementum lectus pellentesque rutrum et in urna. Curabitur quis suscipit enim, sed iaculis nisi. Etiam dignissim ante nec urna vestibulum, nec commodo libero ultrices. Maecenas mattis finibus</p>
+            <span class="more"><i class="fa fa-chevron-right"></i> More</span>
+          </div>
+        </a>
+      </article>
+    </div>
+
+
       </div>
-    <div class="large-4 medium-4 small-12 columns stories"><article class="post preload-background" data-image="/hit-the-road/content/images/2015/10/8634008094_11aef35713_k.jpg" data-resize="true">
+    
+    </div>
+        </main><!-- #main -->
+  </div><!-- #primary -->
+<?php get_footer(); ?>
 
-            <a href="/hit-the-road/discover-redwood-national-park/" class="post-image">
-                <div class="preload-background-image" style="opacity: 1;">        <span class="post-category-wrap">
-                            <span class="post-category">
-                                        Hiking
-                            </span>
-                                <span class="post-category post-featured">Featured</span>
-                        </span>
-                            <span class="preload-background-spinner spinner" style="display: none;">
-                                <span class="double-bounce1"></span>
-                                <span class="double-bounce2"></span>
-                            </span>
-                        <header class="post-header">
-                            <h2 class="post-title">
-logo
-Features
-Destinations
-Hiking
-Visit France
-CITY GUIDE
-Five Reasons to Visit the Eiffel Tower</h2>
-                            <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                        </header></div>
 
-            </a>
-        </article></div>
-  </div>
-  <div class="row">
-   <div class="large-4 medium-4 small-12 columns stories"><article class="post preload-background" data-image="/hit-the-road/content/images/2015/10/8634008094_11aef35713_k.jpg" data-resize="true">
 
-           <a href="/hit-the-road/discover-redwood-national-park/" class="post-image">
-               <div class="preload-background-image" style="opacity: 1;">        <span class="post-category-wrap">
-                           <span class="post-category">
-                                       Hiking
-                           </span>
-                               <span class="post-category post-featured">Featured</span>
-                       </span>
-                           <span class="preload-background-spinner spinner" style="display: none;">
-                               <span class="double-bounce1"></span>
-                               <span class="double-bounce2"></span>
-                           </span>
-                       <header class="post-header">
-                           <h2 class="post-title">Great Smoky Mountains National park</h2>
-                           <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                       </header></div>
 
-           </a>
-       </article></div>
-   <div class="large-4 medium-4 small-12 columns stories"><article class="post preload-background" data-image="/hit-the-road/content/images/2015/10/8634008094_11aef35713_k.jpg" data-resize="true">
-
-           <a href="/hit-the-road/discover-redwood-national-park/" class="post-image">
-               <div class="preload-background-image" style="opacity: 1;">        <span class="post-category-wrap">
-                           <span class="post-category">
-                                       Hiking
-                           </span>
-                               <span class="post-category post-featured">Featured</span>
-                       </span>
-                           <span class="preload-background-spinner spinner" style="display: none;">
-                               <span class="double-bounce1"></span>
-                               <span class="double-bounce2"></span>
-                           </span>
-                       <header class="post-header">
-                           <h2 class="post-title">Discover Redwood National Park</h2>
-                           <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                       </header></div>
-
-           </a>
-       </article></div>
-   <div class="large-4 medium-4 small-12 columns stories"><article class="post preload-background" data-image="/hit-the-road/content/images/2015/10/8634008094_11aef35713_k.jpg" data-resize="true">
-
-           <a href="/hit-the-road/discover-redwood-national-park/" class="post-image">
-               <div class="preload-background-image" style="opacity: 1;">        <span class="post-category-wrap">
-                           <span class="post-category">
-                                       Hiking
-                           </span>
-                               <span class="post-category post-featured">Featured</span>
-                       </span>
-                           <span class="preload-background-spinner spinner" style="display: none;">
-                               <span class="double-bounce1"></span>
-                               <span class="double-bounce2"></span>
-                           </span>
-                       <header class="post-header">
-                           <h2 class="post-title">Great Smoky Mountains National park</h2>
-                           <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                       </header></div>
-
-           </a>
-       </article></div>
- </div>
- <div class="row">
-   <div class="large-3 medium-3 small-12 columns stories"><article class="post preload-background" data-image="/hit-the-road/content/images/2015/10/8634008094_11aef35713_k.jpg" data-resize="true">
-
-           <a href="/hit-the-road/discover-redwood-national-park/" class="post-image">
-               <div class="preload-background-image" style="opacity: 1;">        <span class="post-category-wrap">
-                           <span class="post-category">
-                                       Hiking
-                           </span>
-                               <span class="post-category post-featured">Featured</span>
-                       </span>
-                           <span class="preload-background-spinner spinner" style="display: none;">
-                               <span class="double-bounce1"></span>
-                               <span class="double-bounce2"></span>
-                           </span>
-                       <header class="post-header">
-                           <h2 class="post-title">Great Smoky Mountains National park</h2>
-                           <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                       </header></div>
-
-           </a>
-       </article></div>
-   <div class="large-6 medium-6 small-12 columns stories"><article class="post preload-background" data-image="/hit-the-road/content/images/2015/10/8634008094_11aef35713_k.jpg" data-resize="true">
-
-           <a href="/hit-the-road/discover-redwood-national-park/" class="post-image">
-               <div class="preload-background-image" style="opacity: 1;">        <span class="post-category-wrap">
-                           <span class="post-category">
-                                       Hiking
-                           </span>
-                               <span class="post-category post-featured">Featured</span>
-                       </span>
-                           <span class="preload-background-spinner spinner" style="display: none;">
-                               <span class="double-bounce1"></span>
-                               <span class="double-bounce2"></span>
-                           </span>
-                       <header class="post-header">
-                           <h2 class="post-title">Discover Redwood National Park</h2>
-                           <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                       </header></div>
-
-           </a>
-       </article></div>
-   <div class="large-3 medium-3 small-12 columns stories"><article class="post preload-background" data-image="/hit-the-road/content/images/2015/10/8634008094_11aef35713_k.jpg" data-resize="true">
-
-           <a href="/hit-the-road/discover-redwood-national-park/" class="post-image">
-               <div class="preload-background-image" style="opacity: 1;">        <span class="post-category-wrap">
-                           <span class="post-category">
-                                       Hiking
-                           </span>
-                               <span class="post-category post-featured">Featured</span>
-                       </span>
-                           <span class="preload-background-spinner spinner" style="display: none;">
-                               <span class="double-bounce1"></span>
-                               <span class="double-bounce2"></span>
-                           </span>
-                       <header class="post-header">
-                           <h2 class="post-title">Discover Redwood National Park</h2>
-                           <p class="post-meta"><span class="post-meta-author"><i class="fa fa-user"></i>Karen Smith</span> <time class="post-meta-date" datetime="2015-10-25">25 Oct 2015</time></p>
-                       </header></div>
-
-           </a>
-       </article></div>
-</div>
- </div>
