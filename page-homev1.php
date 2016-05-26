@@ -14,23 +14,17 @@
 
 get_header(); ?>
 
-    <div id="primary" class="content-area">
-    <main id="main" class="site-main " role="main">
+	<div id="primary" class="content-area">
+	<main id="main" class="site-main " role="main">
 
-                <div class="home background preload-background-image"></div>
+				<div class="home background preload-background-image"></div>
 
 
-    <div class="container">
+	<div class="container">
       <div class="row posts">
+        <?php
 
-
-
-  
-<?php
-
-query_posts('posts_per_page=8' );
-
-        while ( have_posts() ) : the_post(); ?>
+      	while ( have_posts() ) : the_post(); ?>
           
             <div class="post preload-background wow zoomIn" data-wow-delay="0.3s" >
 
@@ -52,18 +46,15 @@ query_posts('posts_per_page=8' );
                     </a>
                 </div>
           
-  <?php     endwhile; 
-
-  wp_reset_query();
-  ?>
+  <?php 	endwhile; ?>
 
 
 
 
       </div>
-        <!--    <?php
-            kriesi_pagination(); ?> -->
-        </div>
-            </main><!-- #main -->
-    </div><!-- #primary -->
+		<!-- 	<?php
+			kriesi_pagination(); ?> -->
+		</div>
+    		</main><!-- #main -->
+	</div><!-- #primary -->
 <?php get_footer(); ?>

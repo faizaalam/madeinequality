@@ -43,7 +43,7 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
               <div class="content-wrapper">
                 <h3 class="module-subhead">Your Voice <span class="brand-emphasis"> Matters</span></h3>
 
-                <p class="block-body-copy">HeForShe wants every voice to be heard in classrooms and corner offices around the world. Everyone has a say. Everyone has a role. Every unique contribution is essential to achieving gender equality.</p>
+                <p class="block-body-copy">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 
                 <a href="/en/impact" class=" content-block-menu-link">IMPACT 10×10×10</a><a href="/en/action-kit" class=" content-block-menu-link">Action Kits</a>
               </div>
@@ -66,7 +66,7 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
               <div class="content-wrapper">
                 <h3 class="module-subhead">Your Actions <span class="brand-emphasis"> Make It Real</span></h3>
 
-                <p class="block-body-copy">HeForShe is not just talking about gender equality. We’re achieving it by mobilizing our advocates to stand together, spread the word, and change the world with real action.</p>
+                <p class="block-body-copy">It is not just talking about gender equality. We’re achieving it by mobilizing our advocates to stand together, spread the word, and change the world with real action.</p>
 
                 <a href="#" class="start-committment content-block-menu-link">Make the Commitment</a><a href="/en/take-action/education" class=" content-block-menu-link">Take Action</a>
               </div>
@@ -95,7 +95,7 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
 <div style="text-align: center;">Our <span class="brand-emphasis">Program </span></div>
 </h3>
 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-<span style="margin: 30px auto; display: block; max-width: 390px; color: #ffffff;"><a class="button" href="#" style="color: white; max-width: 390px; margin: 0px auto; display: block; text-decoration: none !important;" target="_blank">HeForShe Overview Brief (PDF)</a></span>
+<span style="margin: 30px auto; display: block; max-width: 390px; color: #cccccc;"><a class="text4 button" href="#" style="color:white; background:black; max-width: 390px; margin: 0px auto; display: block; text-decoration: none !important;" target="_blank">Read The Stories</a></span>
             </div>
         </article>
     </div>

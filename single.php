@@ -10,7 +10,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 <main id="main" class="site-main" role="main">
-  <div class="row">
+  <div class="row container">
   <?php
   while ( have_posts() ) : the_post(); ?>
 
@@ -39,15 +39,21 @@ get_header(); ?>
          
     </div>
   <div class="post-full sharing">
- <a class="follow t" href="javascript:window.open('http://twitter.com/intent/tweet?status=<?php echo urlencode(get_the_title()); ?>+<?php echo wp_get_shortlink(); ?> via @WebAbleDigital','Sharing <?php echo get_the_title() ?> ','width=500,height=800')"><i class="fa fa-twitter"></i>Tweet</a>
+<div class="share">
+  <h3>Share this<br>
+with your friends</h3>
+<div class="share-icons">
+ <a class="follow t" href="javascript:window.open('http://twitter.com/intent/tweet?status=<?php echo urlencode(get_the_title()); ?>+<?php echo wp_get_shortlink(); ?> via @WebAbleDigital','Sharing <?php echo get_the_title() ?> ','width=500,height=800')"><i class="fa fa-twitter"></i></a>
  <a  class="follow i" href="http://www.linkedin.com/" onclick="popUp=window.open(
          'http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink($ID); ?>&title=<?php echo urlencode(get_the_title()); ?>&source=<?php bloginfo('name'); ?>',
          'popupwindow',
          'scrollbars=yes,width=800,height=400');
      popUp.focus();
-     return false"><i class="fa fa-linkedin"></i>Share</a>
- <a class="follow g" href="http://www.plus.google.com/" onclick="popUp=window.open('https://plus.google.com/share?url=<?php echo get_permalink($ID); ?>', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false"><i class="fa fa-google-plus"></i>Post</a>
- <a class="follow f" href="javascript:window.open('http://www.facebook.com/share.php?u=<?php echo get_permalink($ID); ?>&title=<?php echo urlencode(get_the_title()); ?>','Sharing <?php echo get_the_title() ?> ','width=500,height=800')" ><i class="fa fa-facebook"></i> Share</a>
+     return false"><i class="fa fa-linkedin"></i></a>
+ <a class="follow g" href="http://www.plus.google.com/" onclick="popUp=window.open('https://plus.google.com/share?url=<?php echo get_permalink($ID); ?>', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false"><i class="fa fa-google-plus"></i></a>
+ <a class="follow f" href="javascript:window.open('http://www.facebook.com/share.php?u=<?php echo get_permalink($ID); ?>&title=<?php echo urlencode(get_the_title()); ?>','Sharing <?php echo get_the_title() ?> ','width=500,height=800')" ><i class="fa fa-facebook"></i> </a>
+   </div>
+   </div>
    </div>
   </div>
  
