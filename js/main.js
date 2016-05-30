@@ -41,6 +41,18 @@ $('.tlt').textillate({
 });
 
 
+    $(".burger-menu.mobile").click(function(){
+        $(".overlay").fadeToggle(200);
+       $(".burger-menu.mobile").toggleClass('btn-open');
+    });
+
+$('.overlay').on('click', function(){
+    $(".overlay").fadeToggle(200);   
+    $(".burger-menu.mobile").removeClass('btn-open').addClass('btn-close');
+    open = false;
+});
+
+
 
 });
 

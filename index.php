@@ -24,7 +24,7 @@ get_header(); ?>
                 
         <section id="instagrid" data-section="instagrid" class="section_page row fullWidth ">
     <div id="titlepage">
-        <div class="wrap">
+        <div class="wrap-text">
             <div data-text="title" class="line line1 in">
                 <div class="inline_block">
                     Made In 
@@ -115,7 +115,7 @@ get_header(); ?>
     </div>
     <div class="">
      <div class="element text1 tlt"  >
-    <div class="wrap">
+    <div class="wrap-text">
       
         <p class="text text1_1 " style="opacity: 1;">No advance in wealth, no softening of manners, no reform or revolution has ever brought human equality a millimeter nearer.
 George Orwell </p>
@@ -123,7 +123,7 @@ George Orwell </p>
     </div>
   </div>
   <div  class="element text2 tlt" >
-    <div class="wrap">
+    <div class="wrap-text">
       
         <p class="text text2_1" style="opacity: 1;">No advance in wealth, no softening of manners, no reform or revolution has ever brought human equality a millimeter nearer.
 George Orwell </p>
@@ -131,7 +131,7 @@ George Orwell </p>
     </div>
   </div>
   <div  class="element text3 tlt" >
-    <div class="wrap">
+    <div class="wrap-text">
       
         <p class="text text3_1" style="opacity: 1;">No advance in wealth, no softening of manners, no reform or revolution has ever brought human equality a millimeter nearer.
 George Orwell </p>
@@ -141,7 +141,7 @@ George Orwell </p>
     </div>
   </div>
        <div class="text4 wow fadeIn"  data-wow-delay="0.9s" >
-    <div class="wrap">
+    <div class="wrap-text">
       
         <h4 class="text text1_1 " style="opacity: 1;">An initiative by C & A Foundation</h4>
         <a href="/about" class="button">Read More</a>

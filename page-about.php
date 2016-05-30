@@ -32,14 +32,14 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
         <div class="large-12 medium-12 small-12 column block">
           <!-- block 1 -->
           <div class="first content-block large-6 meium-6 small-12 column" style="opacity: 1; display: block;">
-            <div class="content wow flipInX" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
+            <div class="content wow bounceInUp" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
               <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/YourVoiceMattersV2.jpg" class="module-background" alt="YourVoiceMatters">
             </div>
           </div>
           <!-- block 1 end -->
           <!-- block 2 -->
           <div class="content-block-text  large-6 meium-6 small-12 column" style="opacity: 1; display: block;">
-            <div class="content wow flipInX" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
+            <div class="content wow bounceInUp" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
               <div class="content-wrapper">
                 <h3 class="module-subhead">Your Voice <span class="brand-emphasis"> Matters</span></h3>
 
@@ -55,14 +55,14 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
           <!-- block 3 -->
          
              <div class="content-block large-6 meium-6 small-12 column" style="opacity: 1; display: block;">
-            <div class="content wow flipInX" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
+            <div class="content wow bounceInUp" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
               <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/YourVoiceMattersV2.jpg" class="module-background" alt="youractionsmakeitreal">
             </div>
           </div>
           <!-- block 3 end -->
           <!-- block 4 -->
                 <div class=" first content-block-text large-6 meium-6 small-12 column " style="opacity: 1; display: block;">
-            <div class="content wow flipInX" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
+            <div class="content wow bounceInUp" data-wow-delay="0.3s" style="opacity: 1; display: block; transform: translateY(0px);">
               <div class="content-wrapper">
                 <h3 class="module-subhead">Your Actions <span class="brand-emphasis"> Make It Real</span></h3>
 

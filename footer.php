@@ -11,9 +11,9 @@
 
 ?>
 
-	</div><!-- #content -->
+  </div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+  <footer id="colophon" class="site-footer" role="contentinfo">
 <div class="footer-logo"> <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/CNA-grey.png"></div>
     <div class="social-icons">
       <a href="#" target="_blank" class="wow zoomIn "> <i class="fa fa-twitter hvr-bob "></i> </a>
@@ -25,12 +25,15 @@
   <div class="sticky-nav home-sticky-nav">
             <div class="sticky-nav-wrap mobile">
                 <a class="main-title" href="/"> Made in Equality </a>
-                <div class="hanging-right burger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+                <div class="burger-menu mobile">
+                <div class="hanging-right burger ">
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </div>
                 </div>
             </div>
+
             <div class="sticky-nav-wrap desktop">
                 <div class="hangin-left">
                     <a href="/">STORIES</a><span class="space-dot"></span>
@@ -62,6 +65,15 @@ with your friends</h3>
    </div>
    </div>
    </div>
+           <div class="overlay">
+  <div class="wrap">
+    <ul class="wrap-nav">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Work</a></li>
+    </ul>
+
+  </div>
+</div>
 </div><!-- #page -->
 
 

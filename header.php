@@ -35,52 +35,22 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <?php  if (!is_single()){ ?>
+  
       <header>
           <div class="map-header light header">
                       <nav class="header-nav ">
                           <a class="align-left hony" href="/">
-                              <span>Made in</span><span>Equality</span>
+                              <span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png"></span>
                         </a>
                                <div class="alignright menu">
                             <span class="mie-menu desktop">
                               <a href="/home" class="more-stuff">Home -V1</a>
                               <span class="spacer"></span>
-                              <a href="/about" class="more-stuff">About</a>
+                              <a href="/home2" class="more-stuff">Home-V2</a>
                               <span class="spacer"></span>
-                              <a href="/contact" class="more-stuff">Contact</a>
-                              <span class="spacer"></span>
-                              <a href="#" class="more-stuff share-menu">Share</a>
-                          </span>
-
-                               <div class="burger-menu mobile">
-                
-                <div class="hanging-right burger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
-                          </div>
-                      </nav>
-
-  </div>
-      </header>
-    <?php } ?>
-    <?php  if (is_single()){ ?>
-      <header>
-          <div class="map-header light header">
-                      <nav class="header-nav dark">
-                          <a class="align-left hony" href="/">
-                              <span>Made in</span><span>Equality</span>
-                        </a>
-                          <div class="alignright menu">
-                            <span class="mie-menu desktop">
-                              <a href="/home" class="more-stuff">Home -V1</a>
-                              <span class="spacer"></span>
-                              <a href="/about" class="more-stuff">About</a>
-                              <span class="spacer"></span>
-                              <a href="/contact" class="more-stuff">Contact</a>
+                              <a href="/about" class="more-stuff">About-V1</a>
+                               <span class="spacer"></span>
+                              <a href="/about2" class="more-stuff">About-V2</a>
                               <span class="spacer"></span>
                               <a href="#" class="more-stuff share-menu">Share</a>
                           </span>
@@ -88,17 +58,31 @@
                                <div class="burger-menu mobile">
                 
                 <div class="hanging-right burger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
                 </div>
             </div>
                           </div>
-
-
-                                                    
                       </nav>
 
   </div>
+        <div class="overlay">
+  <div class="wrap">
+    <ul class="wrap-nav">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Work</a></li>
+    </ul>
+
+  </div>
+</div>
       </header>
-    <?php } ?>
+   
+
+
+
+
+
+
+
+
