@@ -22,6 +22,20 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hover-min.css">
          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  <!--[if IE]><!-->
+  <style>
+  #instagrid #mosaic_insta .item_insta figure:after {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
+    display: block;
+}
+  #instagrid #mosaic_insta .item_insta:hover figure:after {
+      background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) !important;
+  }
+</style>
+<!--<![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     
      <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
@@ -33,15 +47,48 @@
     <script type="text/javascript" src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
     <script type="text/javascript" src="http://jschr.github.io/textillate/assets/jquery.lettering.js"></script>
     <?php wp_head(); ?>
+ 
   </head>
   <body <?php body_class(); ?>>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   
       <header>
-          <div class="map-header light header">
+   <!--      <nav id="TopNavigation">  
+          <ul>
+            <li><a href="/" class="current">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="/home2">home2</a></li>
+          </ul>
+        </nav>
+        <div id="LogoContainer" style="opacity: 1;">
+         <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png">
+        </div>
+      </header> -->
+           <div class="map-header header">
                       <nav class="header-nav ">
-                          <a class="align-left hony" href="/">
-                              <span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png"></span>
-                        </a>
+                          
+<?php  if ( is_home() || is_page( 'about' ) ) { ?>
+<a class="align-left hony" href="/">
+<span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-White.png"></span>
+                     </a>      <?php  }
+else { ?>
+<a class="align-left hony" href="/">
+  <span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png"></span>
+  </a>
+ <?php } ?>
+
+
+                              
+                       
+                        
                                <div class="alignright menu">
                             <span class="mie-menu desktop">
                               <a href="/home" class="more-stuff">Home -V1</a>
@@ -74,7 +121,7 @@
       <li><a href="#">Work</a></li>
     </ul>
 
-  </div>
+  </div> 
 </div>
       </header>
    

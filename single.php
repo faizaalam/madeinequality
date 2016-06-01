@@ -16,7 +16,7 @@ get_header(); ?>
 
   <header class="story-header">
 
-    <div class="story-header-container small-11 small-centered large-12 large-centered  medium-12 medium-centered columns ">
+    <div class="story-header-container small-12 small-centered large-12 large-centered  medium-12 medium-centered columns ">
 
         <div class="story-header-text"><?php echo the_title(); ?></div>
         <div class="story-header-location"></div>
@@ -24,17 +24,17 @@ get_header(); ?>
   </header>
   <div class="hony-wrapper row ">
 
-  <div class="story-post  small-11 small-centered large-12 large-centered  medium-12 medium-centered columns">
-    <div class="story-post-image">
+  <div class="story-post  small-12 small-centered large-12 large-centered  medium-11 medium-centered columns">
+    <div class="story-post-image ">
       <?php
       $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );
       ?>
 
-        <div class="actual-image" >
+        <div class="actual-image">
           <?php echo the_post_thumbnail(); ?>
         </div>
     </div>
-    <div class="story-post-text">
+    <div class="story-post-text small-11 small-centered large-12 large-centered medium-12 medium-centered columns">
         <p><?php  the_content(); ?></p>
          
     </div>

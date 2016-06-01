@@ -918,7 +918,7 @@ object {
 	width: 100%;
 position: absolute;
 z-index: 2;
-top: 40px;
+top: 0px;
 
 }
 .header nav {
@@ -930,7 +930,7 @@ top: 40px;
     height: 20px;
     padding-bottom: 30px;
     padding-top: 46px;
-    color: #fff;
+    color: black;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-font-smoothing: none;
@@ -1040,12 +1040,14 @@ padding-bottom: 2em;
 .social-icons a{
 	margin: 0 4px;
 }
-
+i.fa.fa-facebook {
+    padding: 10px 14px !important;
+}
 .social-icons a i{
 	font-size: 1.5rem;
     color: #cccccc;
     display: inline-block;
-    padding: 14px;
+    padding: 10px;
     background-color: #cccccc;
     color: black;
     font-size: 38px;
@@ -1066,9 +1068,9 @@ padding-bottom: 2em;
     text-align: center;
 }
 
-header nav {
+/*header nav {
     position: relative;
-    /*border-bottom: 1px solid #fff;*/
+    /*border-bottom: 1px solid #fff;
     max-width: 1170px;
     width: 90%;
     margin: auto;
@@ -1120,7 +1122,7 @@ header nav .hony .tag {
     padding-left: 0px;
     padding-bottom: 7px;
     padding-right: 8px;
-}
+}*/
 
 nav.header-nav.dark{
 	color: black;
@@ -1137,7 +1139,7 @@ header.story-header .story-header-container {
 header.story-header .story-header-text {
 	font-family: Montserrat;
 	font-weight: 700;
-    font-size: 6vmin;
+    font-size: 5vmin;
 }
 header.story-header .story-header-location {
 
@@ -1231,9 +1233,15 @@ header.story-header .story-header-location {
     margin: 0 auto;
     max-width: 900px;
 }
+.actual-image img{
+max-width: 900px;
+    width: 100%;
+    min-height: 400px;
+   
+}
 .single-post #primary{
 	position: relative;
-    margin-top: 8em;
+    margin-top: 12em;
 }
 
 @media (max-width:599px){
@@ -1650,7 +1658,7 @@ display: block;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .post:nth-child(4) .post-image {
-        height: 450px
+        height: 500px
     }
   /*.post:nth-child(4) .post-title {
         font-size: 1.333em;

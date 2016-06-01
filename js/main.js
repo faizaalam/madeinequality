@@ -1,13 +1,6 @@
 $(function() {
 	 new WOW().init();
 
-	 $(".share-menu").click(function(){
-	 	$(".post-full.sharing").toggleClass("active");
-	 });
-
-	  $("#primary").click(function(){
-	 	$(".post-full.sharing").removeClass("active");
-	 });
 
 	  	$('.workprof').hover(function() {
 	    $(this).find(".workhover").toggleClass('appear-background-work');
@@ -55,6 +48,16 @@ $('.overlay').on('click', function(){
 
 
 });
+
+
+	 // $(".share-menu").click(function(){
+	 // 	$(".post-full.sharing").toggleClass("active");
+	 // });
+
+	 //  $("#primary").click(function(){
+	 // 	$(".post-full.sharing").removeClass("active");
+	 // });
+
 
 
 

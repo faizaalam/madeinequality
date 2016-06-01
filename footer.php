@@ -14,7 +14,7 @@
   </div><!-- #content -->
 
   <footer id="colophon" class="site-footer" role="contentinfo">
-<div class="footer-logo"> <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/CNA-grey.png"></div>
+<div class="footer-logo"> <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-White.png"></div>
     <div class="social-icons">
       <a href="#" target="_blank" class="wow zoomIn "> <i class="fa fa-twitter hvr-bob "></i> </a>
       <a href="#" target="_blank" class="wow zoomIn " data-wow-delay="0.2s"> <i class="fa fa-facebook hvr-bob"></i> </a>
@@ -24,7 +24,7 @@
   </footer><!-- #colophon -->
   <div class="sticky-nav home-sticky-nav">
             <div class="sticky-nav-wrap mobile">
-                <a class="main-title" href="/"> Made in Equality </a>
+                <a class="main-title" style="float:left;" href="/"><span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png" style="width:130px; float:left;"></span></a>
                 <div class="burger-menu mobile">
                 <div class="hanging-right burger ">
                     <span class="line top"></span>
@@ -36,14 +36,16 @@
 
             <div class="sticky-nav-wrap desktop">
                 <div class="hangin-left">
-                    <a href="/">STORIES</a><span class="space-dot"></span>
+                    <a href="/">Home</a><span class="space-dot"></span>
                     <a href="/about">ABOUT</a><span class="space-dot"></span>
                     <a href="#" class="share-menu">SHARE</a><span class="space-dot"></span>
                     
                 </div>
 
-                <div class="fb-like-footer" style="float:right;"><span class="fb-like fb_iframe_widget" data-href="#" style="text-align:right !important; height: 25px !important; display: inline-block !important;" data-width="380" data-height="25" data-layout="standard" data-action="like" data-show-faces="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=869885766467319&amp;container_width=0&amp;height=25&amp;href=https%3A%2F%2Ffacebook.com%2Fhumansofnewyork&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;width=380"><span style="vertical-align: bottom; width: 380px; height: 20px;"><iframe name="f33a167f0808e48" width="380px" height="25px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=869885766467319&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df1a982c08f833e8%26domain%3Dwww.humansofnewyork.com%26origin%3Dhttp%253A%252F%252Fwww.humansofnewyork.com%252Ff378870d8ca32e%26relation%3Dparent.parent&amp;container_width=0&amp;height=25&amp;href=https%3A%2F%2Ffacebook.com%2Fhumansofnewyork&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;width=380" style="border: none; visibility: visible; width: 380px; height: 20px;" class=""></iframe></span></span>
-                    </div>
+                <div class="fb-like-footer" style="float:right;">
+                  <div class="fb-like" data-href="https://www.facebook.com/CandaFund/?fref=ts" data-width="500px" data-layout="standard" data-action="like" data-show-faces="true" data-share="false">
+                  </div>
+                </div>
 
             </div>
         </div>
@@ -68,8 +70,11 @@ with your friends</h3>
            <div class="overlay">
   <div class="wrap">
     <ul class="wrap-nav">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Work</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/home2">Home-V2</a></li>
+      <li><a href="/about">About-1</a></li>
+      <li><a href="#" class="share-menu">Share</a></li>
+      
     </ul>
 
   </div>

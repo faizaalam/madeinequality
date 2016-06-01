@@ -1,0 +1,22 @@
+/*
+Theme Name: madeinequality
+Author: Faiza Alam
+Description: Description
+Version: 1.0.0
+Text Domain: Made in Equality
+Tags:
+*/
+
+
+
+/*#instagrid #mosaic_insta .item_insta figure:after {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    display: block;
+}
+.item_insta:hover figure:after {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) !important;
+}
+*/

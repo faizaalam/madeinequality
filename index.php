@@ -22,95 +22,97 @@ get_header(); ?>
     <main id="main" class="site-main " role="main">
 
                 
-        <section id="instagrid" data-section="instagrid" class="section_page row fullWidth ">
-    <div id="titlepage">
+    <section id="instagrid" data-section="instagrid" class="section_page row fullWidth ">
+    <div id="titlepage1">
         <div class="wrap-text">
             <div data-text="title" class="line line1 in">
                 <div class="inline_block">
-                    Made In 
+                    <span class="wow fadeInUp"  data-wow-delay="0.7s" >Made</span>
+                     <br><span class="wow fadeInUp"  data-wow-delay="0.10s" >In</span> 
                 </div>
             </div>
             <div data-text="title" class="line line2">
                 <div class="inline_block">
-                 Equality
+                 <span class="wow fadeInUp"  data-wow-delay="1s" >Equality</span>
                 </div>
             </div>
         </div>
     </div>
+    
 
     <div id="mosaic_insta" class=" not-ie-thanks-sata in">
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/1.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/1.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/13221650_10208172936173959_6290921489414283605_n.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-6.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/13247818_10208172936373964_6106173584743696580_o.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-29.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/4.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/4.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/5.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-7.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/6.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/6.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/2.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/2.jpg);"  ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/3.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/3.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/Untitled.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-25.jpg);"  ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/ybccxc.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-22.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/5.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-16.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/2.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-26.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/13221650_10208172936173959_6290921489414283605_n.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-27.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/4.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-3.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/13247818_10208172936373964_6106173584743696580_o.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-28.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/6.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-19.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/Untitled.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-21.jpg);"  ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/ybccxc.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-5.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/6.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-18.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/5.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-3.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/4.jpg);"></figure>
+               <!--   <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/4.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/3.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/3.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/2.jpg);"></figure>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/06/CA-8.jpg);" ></figure>
                 </div>
-                <div class="item_insta">
-                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/1.jpg);"></figure>
-                </div>
+                <div class="item_insta wow fadeIn " data-wow-delay:".6s">
+                    <figure style="background-image: url(http://madeinequality.webable.digital/wp-content/uploads/2016/05/1.jpg);" ></figure>
+                </div> -->
 
     </div>
     <div class="">
@@ -143,7 +145,7 @@ George Orwell </p>
        <div class="text4 wow fadeIn"  data-wow-delay="0.9s" >
     <div class="wrap-text">
       
-        <h4 class="text text1_1 " style="opacity: 1;">An initiative by C & A Foundation</h4>
+        <h4 class="text text1_1 " style="opacity: 1;">An initiative by C&A Foundation</h4>
         <a href="/about" class="button">Read More</a>
        
     </div>
@@ -153,15 +155,39 @@ George Orwell </p>
 
 </section>
 
+
 <section>
     <div class="container">
-      <div class="row posts fullWidth">
+      <div class="row posts">
       <div class="headline"><h1 style="text-align:center; font-weight:bold; ">Our Stories</h1></div>
         <?php
 
         while ( have_posts() ) : the_post(); ?>
 
-        <div class="small-12 medium-6 large-6 xlarge columns workprof"  data-wow-delay="0.3s">
+                    <div class="small-12 medium-6 large-6 xlarge columns workprof preload-background wow zoomIn" data-wow-delay="0.3s" >
+
+                    <a href="<?php echo get_permalink($post->ID); ?>" class="post-image" style="height:100%;">
+                     
+                      <?php
+                      $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );
+                      ?>
+                        <div class="preload-background-image " style="background:url(<?php echo $src[0]; ?> ) ;">
+
+                   
+                                <header class="post-header">
+                                    <h2 class="post-title"><?php echo the_title(); ?></h2>
+
+                                </header>
+                                <div class="excerpt">
+                                  <?php the_excerpt(); ?>
+                                </div>
+                               
+                        </div>
+
+                    </a>
+                </div>
+
+<!--         <div class="small-12 medium-6 large-6 xlarge columns workprof"  data-wow-delay="0.3s">
               <a href="<?php echo get_permalink($post->ID); ?>">
                 <div class="workhover ">
                   <div class="describe">
@@ -175,7 +201,7 @@ George Orwell </p>
                       ?>
                 <img src="<?php echo $src[0]; ?>">
               </a>
-            </div>
+            </div> -->
   
 
           

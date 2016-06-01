@@ -8,23 +8,13 @@ get_header(); ?>
     <main id="main" class="site-main " role="main">
       <div class="about-main">
             <div class="about-home-header container-header">
-                <h1>Made in Equality</h1>
+            
                 <h2>About</h2>
             </div>
-     <!--        <div class="about-description">
-                <img class="brandon-headshot" src="https://s3.amazonaws.com/tholman.com/hony/img/brandon-headshot.png">
-                <div class="brandon-subheader">
-                    BRANDON STANTON
-                </div>
-                <p>
-                    “Humans of New York began as a photography project in 2010.&nbsp; The initial goal was to photograph 10,000 New Yorkers on the street, and create an exhaustive catalogue of the city’s inhabitants."
-                </p>
-            </div> -->
+    
             <p class="about-paragraph">
-                “Somewhere along the way, I began to interview my subjects in addition to photographing them. And alongside their portraits, I'd include quotes and short stories from their lives.”
-                <br><br>
-                Taken together, these portraits and captions became the subject of a vibrant blog. HONY now has over twenty million followers on social media, and provides a worldwide audience with daily glimpses into the lives of strangers on the streets of New York City.&nbsp; 
-                <br><br>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br><br>
                 
 <!--                 <span class="books-wrapper">
                     <a target="_blank" href="http://www.amazon.com/Humans-New-York-Brandon-Stanton/dp/1250058902/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1250058902&amp;linkCode=as2&amp;tag=humofnewyor-20&amp;linkId=PDCZMIXZETZP44D7">
