@@ -918,6 +918,7 @@ fieldset {
   height: 100vh;
   position: relative;
   overflow: hidden;
+  min-height: 500px;
 }
 
 /*home*/
@@ -1762,3 +1763,11 @@ a.follow .fa {
   #instagrid #mosaic_insta .item_insta:hover figure:after {
       background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) !important;
   }
+
+@media screen and (min-width: 320px) and (max-width: 640px) and (orientation: landscape) {
+#instagrid {
+    height: 140vh !important;
+    position: relative;
+    overflow: hidden;
+}
+}
