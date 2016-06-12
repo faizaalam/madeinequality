@@ -13,39 +13,22 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Made in Equality</title>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/foundation.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/app.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style2.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/main.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hover-min.css">
          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
-  <!--[if IE]><!-->
-  <style>
-  #instagrid #mosaic_insta .item_insta figure:after {
-    content: ' ';
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
-    display: block;
-}
-  #instagrid #mosaic_insta .item_insta:hover figure:after {
-      background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) !important;
-  }
-</style>
-<!--<![endif]-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     
      <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
      <script src="<?php echo get_template_directory_uri(); ?>/js/wow.js"></script>
+     
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.js" charset="utf-8"></script>
-    
-    <script type="text/javascript" src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
-    <script type="text/javascript" src="http://jschr.github.io/textillate/assets/jquery.lettering.js"></script>
+    <link rel="icon" type="image/x-icon" href="/wp-content/uploads/2016/06/favicon-16x16.png" sizes="any" />
     <?php wp_head(); ?>
  
   </head>
@@ -60,47 +43,49 @@
 }(document, 'script', 'facebook-jssdk'));</script>
   
       <header>
-   <!--      <nav id="TopNavigation">  
+  
+           <!-- <div class=""> -->
+                      <nav class="">
+                           <nav id="TopNavigation">  
           <ul>
-            <li><a href="/" class="current">Home</a></li>
             <li><a href="/about/">About</a></li>
-            <li><a href="#">Share</a></li>
-            <li><a href="/home2">home2</a></li>
+            <li><a href="#" class="share-menu">Share</a></li>
+          
           </ul>
         </nav>
+        <?php if(!is_page( 'white' )){ ?>
         <div id="LogoContainer" style="opacity: 1;">
-         <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png">
+         <a href="/"><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-White.png"></a>
         </div>
-      </header> -->
-           <div class="map-header header">
-                      <nav class="header-nav ">
-                          
-<?php  if ( is_home() || is_page( 'about' ) ) { ?>
-<a class="align-left hony" href="/">
-<span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-White.png"></span>
-                     </a>      <?php  }
-else { ?>
-<a class="align-left hony" href="/">
-  <span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png"></span>
-  </a>
- <?php } ?>
+        <?php } ?>
+
+<?php if(is_page( 'white' )){ ?>
+ <div id="LogoContainer" style="opacity: 1;">
+         <a href="/"><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png"></a>
+        </div>
+  <?php  } ?>
+        </nav>
+
+        <nav class="FixedNavigation">  
+  <a href="/"><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-White.png" style="
+    width: 110px;
+"></a>
+          <ul style="
+    float: right;
+">
+            <li><a href="/about/">About</a></li>
+            <li><a href="#" class="share-menu">Share</a></li>
+          
+          </ul>
+        </nav>
+
 
 
                               
                        
                         
-                               <div class="alignright menu">
-                            <span class="mie-menu desktop">
-                              <a href="/home" class="more-stuff">Home -V1</a>
-                              <span class="spacer"></span>
-                              <a href="/home2" class="more-stuff">Home-V2</a>
-                              <span class="spacer"></span>
-                              <a href="/about" class="more-stuff">About-V1</a>
-                               <span class="spacer"></span>
-                              <a href="/about2" class="more-stuff">About-V2</a>
-                              <span class="spacer"></span>
-                              <a href="#" class="more-stuff share-menu">Share</a>
-                          </span>
+            <!--                    <div class="alignright menu">
+                            
 
                                <div class="burger-menu mobile">
                 
@@ -110,11 +95,13 @@ else { ?>
                     <span class="line bottom"></span>
                 </div>
             </div>
-                          </div>
-                      </nav>
+                          </div> -->
+                      <!-- </nav> -->
 
-  </div>
-        <div class="overlay">
+  
+       <!--  
+</div>
+       <div class="overlay">
   <div class="wrap">
     <ul class="wrap-nav">
       <li><a href="#">About</a></li>
@@ -122,7 +109,7 @@ else { ?>
     </ul>
 
   </div> 
-</div>
+</div> -->
       </header>
    
 
@@ -130,6 +117,19 @@ else { ?>
 
 
 
+<!-- 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Lorem Ipsum" />
 
+    <meta property="og:site_name" content="The GolfHouse" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The GolfHouse" />
+    <meta property="og:description" content="Bangladesh's First Ever Golf Magazine." />
+    <meta property="og:url" content="thegolfhousebd.com" />
+    <meta property="og:image" content="http://thegolfhousebd.com/images/gf_logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The GolfHouse" />
+    <meta name="twitter:description" content="Bangladesh's First Ever Golf Magazine." />
+    <meta name="twitter:url" content="thegolfhousebd.com" />
 
-
+ -->

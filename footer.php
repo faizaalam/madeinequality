@@ -14,72 +14,60 @@
   </div><!-- #content -->
 
   <footer id="colophon" class="site-footer" role="contentinfo">
-<div class="footer-logo"> <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-White.png"></div>
-    <div class="social-icons">
-      <a href="#" target="_blank" class="wow zoomIn "> <i class="fa fa-twitter hvr-bob "></i> </a>
-      <a href="#" target="_blank" class="wow zoomIn " data-wow-delay="0.2s"> <i class="fa fa-facebook hvr-bob"></i> </a>
-      <a href="#" target="_blank" class="wow zoomIn " data-wow-delay="0.4s"> <i class="fa fa-youtube hvr-bob"></i> </a>
+
+
+<!-- <div class="long-card parsec-card social-shares-card extra-bottom-padding over-breakpoint-768" data-breakpoint="true" data-chapter-fragment="" data-chapter-image="" data-chapter="" data-extended-options="{}" data-height-style="" data-style="{}" data-title="Card" data-type="LongCard" id="" style="">
+  <div class="parsec-block parsec-block-text " data-extended-options="{}" data-style="{}" data-type="TextBlock" style="">
+    <div class="social-shares-wrap"> 
+      <div class="social-shares-caption" style=""> 
+      Get social with us! Share this page with your friends.
+      </div> 
+      <div class="parsec social-shares"> 
+        <a class="social-share facebook" data-fragment="share-action"><i class="fa fa-facebook"></i> </a>
+        <a class="social-share twitter" data-fragment="share-action"><i class="fa fa-twitter"></i> </a>
+       <a class="social-share google_plus" data-fragment="share-action"><i class="fa fa-google-plus"></i></a> 
+     </div>
+   </div>
+   </div>
+
+</div> -->
+
+
+
+
+<!-- <div class="footer-logo"> <img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-White.png"></div>
+ -->    <div class="social-icons">
+      <a href="#" target="_blank" class="wow zoomIn "> <i class="fa fa-twitter hvr-bob " style="
+   
+    background: #03A9F4;
+"></i> </a>
+      <a href="#" target="_blank" class="wow zoomIn " data-wow-delay="0.2s"> <i class="fa fa-facebook hvr-bob" style="
+    background: #3A5BA2;
+"></i> </a>
+      <a href="#" target="_blank" class="wow zoomIn " data-wow-delay="0.4s"> <i class="fa fa-google-plus hvr-bob"  style="
+    background: #E02F2F;
+"></i> </a>
     </div>
     <div class="foot">Made with <i class="fa fa-heart heart-pulse"></i> by WebAble</div>
-  </footer><!-- #colophon -->
-  <div class="sticky-nav home-sticky-nav">
-            <div class="sticky-nav-wrap mobile">
-                <a class="main-title" style="float:left;" href="/"><span><img src="http://madeinequality.webable.digital/wp-content/uploads/2016/05/Made-in-Equality-blue.png" style="width:130px; float:left;"></span></a>
-                <div class="burger-menu mobile">
-                <div class="hanging-right burger ">
-                    <span class="line top"></span>
-                    <span class="line middle"></span>
-                    <span class="line bottom"></span>
-                </div>
-                </div>
-            </div>
-
-            <div class="sticky-nav-wrap desktop">
-                <div class="hangin-left">
-                    <a href="/">Home</a><span class="space-dot"></span>
-                    <a href="/about">ABOUT</a><span class="space-dot"></span>
-                    <a href="#" class="share-menu">SHARE</a><span class="space-dot"></span>
-                    
-                </div>
-
-                <div class="fb-like-footer" style="float:right;">
-                  <div class="fb-like" data-href="https://www.facebook.com/CandaFund/?fref=ts" data-width="500px" data-layout="standard" data-action="like" data-show-faces="true" data-share="false">
-                  </div>
-                </div>
-
-            </div>
-        </div>
-
-          <div class="post-full sharing">
+  </footer>
+          <div class="full-sharing">
+            <span class="share-cross"><i class="fa fa-times" aria-hidden="true"></i></span>
 <div class="share">
-  <h3>Share this<br>
-with your friends</h3>
+  <h3>Share 
+</h3>
 <div class="share-icons">
- <a class="follow t" href="javascript:window.open('http://twitter.com/intent/tweet?status=<?php echo urlencode(get_the_title()); ?>+<?php echo wp_get_shortlink(); ?> via @WebAbleDigital','Sharing <?php echo get_the_title() ?> ','width=500,height=800')"><i class="fa fa-twitter"></i></a>
- <a  class="follow i" href="http://www.linkedin.com/" onclick="popUp=window.open(
-         'http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink($ID); ?>&title=<?php echo urlencode(get_the_title()); ?>&source=<?php bloginfo('name'); ?>',
-         'popupwindow',
-         'scrollbars=yes,width=800,height=400');
-     popUp.focus();
-     return false"><i class="fa fa-linkedin"></i></a>
- <a class="follow g" href="http://www.plus.google.com/" onclick="popUp=window.open('https://plus.google.com/share?url=<?php echo get_permalink($ID); ?>', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false"><i class="fa fa-google-plus"></i></a>
- <a class="follow f" href="javascript:window.open('http://www.facebook.com/share.php?u=<?php echo get_permalink($ID); ?>&title=<?php echo urlencode(get_the_title()); ?>','Sharing <?php echo get_the_title() ?> ','width=500,height=800')" ><i class="fa fa-facebook"></i> </a>
-   </div>
-   </div>
-   </div>
-           <div class="overlay">
-  <div class="wrap">
-    <ul class="wrap-nav">
-      <li><a href="/">Home</a></li>
-      <li><a href="/home2">Home-V2</a></li>
-      <li><a href="/about">About-1</a></li>
-      <li><a href="#" class="share-menu">Share</a></li>
-      
-    </ul>
 
-  </div>
+<a class="full-follow f" href="javascript:window.open('http://www.facebook.com/share.php?u=<?php echo get_site_url(); ?>','Sharing Made in Equality','width=500,height=800')" ><i class="fa fa-facebook"></i> </a>
+ <a class="full-follow t" href="javascript:window.open('http://twitter.com/intent/tweet?status=<?php echo get_site_url(); ?> via @MadeInEquality','Sharing Made in Equality','width=500,height=800')"><i class="fa fa-twitter"></i></a>
+
+ <a class="full-follow g" href="http://www.plus.google.com/" onclick="popUp=window.open('https://plus.google.com/share?url=<?php echo get_site_url(); ?>', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false"><i class="fa fa-google-plus"></i></a>
+ 
+   <div><span class="name-share"> Facebook </span><span class="name-share">Twitter  </span> <span class="name-share">Google Plus</span></div>
+   </div>
+   </div>
+   </div>
+
 </div>
-</div><!-- #page -->
 
 
 </body>

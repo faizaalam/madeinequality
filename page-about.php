@@ -15,9 +15,10 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
   <main id="main" class="site-main " role="main">
+    <div class="about-mie">
     <section class="background-cover  parallax-bg">
       <div class="row">
-        <div class="aligncenter module-content large-7 large-centered medium-7 medium-centered  small-11 small-centered column">
+        <div class="aligncenter module-content large-7 large-centered medium-10 medium-centered  small-11 small-centered column">
           <header class="module-head wow slideInDown" data-wow-delay="0.3s">
             <h4 class="module-eyebrow"></h4>
             <h2 class="module-header">Our Mission</h2>
@@ -36,11 +37,11 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
     </section>
 
     <section class="module content-blocks-module showing" data-module="CONTENTBLOCKS">
-      <div class="row container-block">
-
+      <div class="row container-block ">
+<div class="large-8 large-centered medium-10 small-11 column medium-centered small-centered">
         <h3 class="module-header">Our <span class="brand-emphasis">Values</span></h3>
-        <p class="module-body-p">We're standing together and taking action to create a gender equal world.</p>
-
+        <p class="module-body-p ">We're standing together and taking action to create a gender equal world.</p>
+</div>
         <div class="large-12 medium-12 small-12 column block">
           <!-- block 1 -->
           <div class="first content-block large-6 meium-6 small-12 column" style="opacity: 1; display: block;">
@@ -100,8 +101,8 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
 
 <section class="module program-content">
     <div class="row">
-        <article class="program-container large-8 large-centered medium-8 small-11 column medium-centered small-centered">
-            <div class="program-content-wrapper wow fadeInDown" data-wow-delay="0.6s" style="text-align: center;">
+        <article class="program-container large-8 large-centered medium-10 small-11 column medium-centered small-centered">
+            <div class="program-content-wrapper wow fadeInLeft" data-wow-delay="0.6s" style="text-align: center;">
                 <h3></h3>
 <h3>
 <div style="text-align: center;">Our <span class="brand-emphasis">Program </span></div>
@@ -112,7 +113,7 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
         </article>
     </div>
 </section>
-
+  </div>
   </main>
 </div>
 

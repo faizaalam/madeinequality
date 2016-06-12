@@ -1,0 +1,186 @@
+/*
+Theme Name: madeinequality
+Author: Faiza Alam
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Made in Equality
+Tags:
+*/
+
+@media (min-width: 768px) {
+  #TopNavigation ul li, .FixedNavigation ul li {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #TopNavigation ul li a , .FixedNavigation ul li a{
+    letter-spacing: 1px;
+  }
+  #LogoContainer {
+    height: 155px !important;
+  }
+}
+
+@media (max-width:599px){
+  .post-title {
+    font-size: 5vmin;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ .about-mie{
+  margin-top: 7em;
+ }
+}
+
+
+@media screen and (max-width: 639px){
+.container-block {
+    padding: 2em 0px;
+}
+.content-block-text:before {
+        margin-top: 2% !important;
+}
+}
+
+@media (max-width: 810px) {
+
+  .single .story-post{
+    padding: 0px !important;
+  }
+  .single .actual-image img{
+    width: 100%;
+    height : auto !important;
+  }
+ .align-left.hony{
+    top: 22px !important;
+  }
+ .header nav {
+    width: 100% !important;
+  }
+  .burger-menu {
+        right: 20px;
+    top: 18px;
+}
+  .story-post-text, .post-page-post .post-text {
+    font-size: 18px !important;
+    margin-bottom: 2em !important;
+    margin-top: 2em !important;
+}
+  .single .container {
+     padding-left: 0px; 
+     padding-right: 0px; 
+}
+  .sticky-nav .desktop {
+    display: none;
+  }
+  .sticky-nav {
+    bottom: auto;
+    top: 0px;
+    transform: translateY(-130px);
+    padding: 20px;
+  }
+  footer {
+    margin-bottom: 0px !important;
+  }
+  .align-left.hony {
+    top: 0px;
+  }
+  .sticky-nav .mobile {
+    display: block !important;
+  }
+  .page-template-page-home2 .sticky-nav .mobile {
+    display: none !important;
+  }
+  .home .align-left.hony {
+    top: 40px !important;
+    margin: 0 auto;
+  }
+  .home .burger-menu {
+    display: none;
+  }
+  .mie-menu.desktop {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  header nav .hony {
+    text-align: center !important;
+    display: block !important;
+    position: relative !important;
+    width: 130px !important;
+    margin-top: -59px !important;
+    padding-bottom: 7px !important;
+    padding-right: 10px !important;
+  }
+  .header {
+    top: 40px !important;
+  }
+  .single-post #primary {
+    margin-top: 8em !important;
+  }
+    .workprof:hover .post-header .post-title {
+    transition: transform .2s ease-in;
+    -ms-transform: translate(0, -220px) !important;
+    -webkit-transform: translate(0, -220px) !important;
+    transform: translate(0, -220px) !important;
+}
+  .post:hover .post-header .post-title {
+    transition: transform .2s ease-in;
+    -ms-transform: translate(0, -200px) !important;
+    -webkit-transform: translate(0, -200px) !important;
+    transform: translate(0, -200px) !important;
+}
+.header nav{
+  padding: 2rem !important;
+}
+}
+@media (max-width: 960px) {
+  .sticky-nav-wrap.desktop {
+    text-align: center;
+  }
+  .sticky-nav .hangin-right {
+    display: none;
+  }
+
+  #instagrid #titlepage1 {
+    width: 90%;
+    margin: 0 5%;
+    color: #DAA520;
+    border: 0px !important;
+    font-size: 10vmin;
+    top: calc(100% - 80%);
+  }
+ 
+}
+@media (max-width: 960px and min-width:640px){
+ #instagrid .element {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width:1500px){
+  .post-section {
+    margin: 10em auto 0px !important;
+    background:black;
+}
+  .single-post #primary {
+    margin-top: 10em !important;
+  }
+}
+@media screen and (max-width:768px){
+  .post-section {
+    margin:9em auto 0px !important;
+    background: black;
+}
+  .single-post #primary {
+    margin-top: 9em !important;
+  }
+#LogoContainer {
+    
+    height: 120px;
+   
+}
+}

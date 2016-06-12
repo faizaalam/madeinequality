@@ -80,6 +80,10 @@ function madeinequality_setup() {
 endif;
 add_action( 'after_setup_theme', 'madeinequality_setup' );
 
+add_theme_support( 'infinite-scroll', array(
+    'container' => 'content',
+    'footer' => 'page',
+) );
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -91,47 +95,32 @@ function madeinequality_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'madeinequality_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'madeinequality_content_width', 0 );
-function kriesi_pagination($pages = '', $range = 2)
-{
-     $showitems = ($range * 2)+1;
 
-     global $paged;
-     if(empty($paged)) $paged = 1;
-
-     if($pages == '')
-     {
-         global $wp_query;
-         $pages = $wp_query->max_num_pages;
-         if(!$pages)
-         {
-             $pages = 1;
-         }
-     }
-
-     if(1 != $pages)
-     {
-         echo "<div class='pagination-container wow zoomIn mar-b-1x' data-wow-duration='0.5s'>";
-				 echo "<ul class='pagination'>";
-         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<li class='pagination-item--wide first'><a href='".get_pagenum_link(1)."' class='pagination-link--wide first'>Previous</a></li>";
-         if($paged > 1 && $showitems < $pages) echo "<li class='pagination-item--wide first'><a href='".get_pagenum_link($paged - 1)."' class='pagination-link--wide first'>Previous</a></li>";
-
-         for ($i=1; $i <= $pages; $i++)
-         {
-             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
-             {
-                 echo ($paged == $i)? " <li class='pagination-item is_active'><a href='".get_pagenum_link($i)."'>".$i."</a></li>":"<li class='pagination-item'><a class='pagination-link' href='".get_pagenum_link($i)."' >".$i."</a></li>";
-
-
-
-						 }
-         }
-
-         if ($paged < $pages && $showitems < $pages) echo "<li class='pagination-item--wide last'><a href='".get_pagenum_link($paged + 1)."' class='pagination-link--wide last'>Next</a></li>";
-         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<li class='pagination-item--wide last'><a href='".get_pagenum_link($pages)." ' class='pagination-link--wide last'>Next</a></li>";
-				 echo "</ul>";
-         echo "</div>\n";
-     }
+function wpb_set_post_views($postID) {
+    $count_key = 'wpb_post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    }else{
+        $count++;
+        update_post_meta($postID, $count_key, $count);
+    }
 }
+//To keep the count accurate, lets get rid of prefetching
+remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+
+
+function wpb_track_post_views ($post_id) {
+    if ( !is_single() ) return;
+    if ( empty ( $post_id) ) {
+        global $post;
+        $post_id = $post->ID;    
+    }
+    wpb_set_post_views($post_id);
+}
+add_action( 'wp_head', 'wpb_track_post_views');
 
 /**
  * Register widget area.
@@ -170,3 +159,7 @@ function madeinequality_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'madeinequality_scripts' );
+
+
+
+

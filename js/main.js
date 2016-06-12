@@ -11,27 +11,11 @@ $(function() {
 
 $(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
-			$('.sticky-nav').addClass('active');
+			$('.FixedNavigation').addClass('active');
 		} else {
-			$('.sticky-nav').removeClass('active');
+			$('.FixedNavigation').removeClass('active');
 		}
 	});
-$( ".post:nth-child(odd)" ).addClass( "wow fadeInRight" );
-$( ".post:nth-child(even)" ).addClass( "wow fadeInLeft" );
-
-$('.tlt').textillate({ 
-  in: {                         
-    effect: 'fadeInLeft',                         
-                         
-    },
-                                                   
-    out: {                       
-    effect: 'fadeOut',                          
-                                
-    sync: true                            
-    },                          
-    loop: true 
-});
 
 
     $(".burger-menu.mobile").click(function(){
@@ -45,18 +29,71 @@ $('.overlay').on('click', function(){
     open = false;
 });
 
+	 $(".share-menu").click(function(){
+	 	$(".full-sharing").toggleClass("active");
+	 });
+
+	  $("#primary").click(function(){
+	 	$(".full-sharing.active").removeClass("active");
+	 });
+	   $(".share-cross").click(function(){
+	 	$(".full-sharing.active").removeClass("active");
+	 });
 
 
+
+// 	   var postSize = $(".post").length;
+// 	   $('.post').hide();
+// 	   console.log(postSize);
+// var postLimit = 4;
+// var postDisplay = 3;
+// var endPosts = false;
+// $('.post:lt('+postDisplay+')').show();
+// $('#loadmore').click(function () {
+// 	if (postDisplay + postLimit <= postSize) {
+// 		postDisplay += postLimit;
+// 	}
+// 	else {
+// 		postDisplay = postSize;
+// 		endPosts = true;
+// 	}
+// $('.post:lt('+postDisplay+')').show();
+// 	if (endPosts) {
+// 		$('#loadmore').hide();
+// 	}
+// });
+
+
+
+
+
+
+
+	   var postSize = $(".post").length;
+	    $('.post').hide();
+	
+
+	  
+var postLimit = 8;
+var postDisplay = 4;
+var endPosts = false;
+$('.post:lt('+postDisplay+')').show();
+$(window).scroll(function(){
+                    if  ($(window).scrollTop() == $(document).height() - $(window).height()){
+	if (postDisplay + postLimit <= postSize) {
+		postDisplay += postLimit;
+	}
+	else {
+		postDisplay = postSize;
+		endPosts = true;
+	}
+$('.post:lt('+postDisplay+')').show();
+
+};
+});
 });
 
 
-	 // $(".share-menu").click(function(){
-	 // 	$(".post-full.sharing").toggleClass("active");
-	 // });
-
-	 //  $("#primary").click(function(){
-	 // 	$(".post-full.sharing").removeClass("active");
-	 // });
 
 
 
